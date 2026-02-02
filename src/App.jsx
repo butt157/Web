@@ -110,7 +110,7 @@ const App = () => {
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal-content">
             <h3 style={{color: '#00f2ff'}}>SISTEMAS ONLINE</h3>
-            <p>Use <b>WASD</b> ou <b>ARRASTE</b> na tela.</p>
+            <p>Use <b>'W' 'A' 'S' 'D'</b> ou <b>ARRASTE</b> na tela.</p>
             <button className="action-btn" onClick={() => setShowModal(false)}>DECOLAR</button>
           </div>
         </div>
