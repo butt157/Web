@@ -12,7 +12,7 @@ const FighterJet = ({ isMoving }) => (
 );
 
 const App = () => {
-  const WHATSAPP_NUMBER = "55XXXXXXXXXXX"; 
+  const WHATSAPP_NUMBER = "55X21987890183"; 
   const skills = [
     { name: "REACT", level: "95%" }, { name: "NODE.JS", level: "88%" },
     { name: "TS", level: "90%" }, { name: "AWS", level: "75%" }
