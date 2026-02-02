@@ -1,0 +1,24 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0c;
+  color: white;
+  overflow-y: hidden; /* Trava vertical */
+  overflow-x: auto;   /* Permite horizontal */
+  font-family: sans-serif;
+}
+
+#root {
+  width: 500vw; /* Garante que o palco seja grande */
+  height: 100vh;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px dashed #333;
+}
